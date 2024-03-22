@@ -1,1 +1,1 @@
-# ocatve-simulations
+# octave-simulations
