@@ -37,7 +37,7 @@ for grau = 3:7
     xlabel('Coluna');
     ylabel('Linha');
     zlabel('Valor');
-    
+
     % Salvar o gráfico da matriz de saída para o grau atual
     saveas(gcf, ['Matriz_de_saida_grau_' num2str(grau) '.png']);
 end
