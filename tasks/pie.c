@@ -23,10 +23,12 @@ int main() {
         }
     }
 
-    printf("Pie\t\tAbsolut\t\tRelative\t\tAc\n");
+    printf("Initial Parameters\nPie\t\tAbsolut\t\tRelative\t\tAc\n");
     for(int i = 0; i < sizeof(pie) / sizeof(pie[0]); i++) {
         printf("%d\t\t%d\t\t%f\t\t%.3f\n", i + 1, pie[i], rel_frequence[i], ac_rel_frequence[i]);
     }
+
+    printf("\nSimulating pie...\n");
 
     // simulator
     srand(time(NULL));
